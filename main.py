@@ -73,7 +73,7 @@ def unknown_command(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text="Sorry, I didn't understand that command.")
 
 
-updater = Updater(token="1519181325:AAGwhWfpYuvt48zX4Muacud7Mtt5YkOqtnI", use_context=True)
+updater = Updater(token="1732510655:AAH5_bSBPmdcBLHTlnpKiqcJhx6T93ZVprA", use_context=True)
 dispatcher = updater.dispatcher
 
 in_handler = CommandHandler('in', in_command)
